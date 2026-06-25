@@ -19,6 +19,7 @@ Instructions For Download Git
 -> Finish Install without changed default install process. 
 -> Go to Search bar of Windows and Write cmd for Command Prompt. Enter
 -> Now Operate git by Command Prompt 
+
 --------------------------
    Command For Git 
 --------------------------
@@ -33,6 +34,7 @@ Instructions For Download Git
 -> Git add (File Name)  - For Adding Specific File in Staging Area. 
 -> Git add . For all file in staging area.
 -> Git add --all (For Adding all file which is untracked with in this repository)
+-> Git add * - Git not add in stages deleted files.
 -> Git reset- (For Reset Folder Location)
 -> Git mkdir- (For Create New Folder)
 -> Git ls - Use for list and inspect every file specially currently tracked in your git staging index. (From git internal prospective)
@@ -44,6 +46,7 @@ Instructions For Download Git
 -> Git add (File Name)* - For add specific types of file. 
 -> Git commit -m "Message for Last Update" - (Use this command for commit update and last changes)
 -> Git log - (Use this command for Summary or check last commit)
+-> Git reset HEAD~ - For reset Every thing in GitHub. 
 -> Git reset --soft HEAD (For Undo Commit)
 -> Git reset --soft <Commit> (Git rewinds your branch history back to that specific commit)
 -> Git reset --soft HEAD~1 (Use this command for go back to the first commit)
@@ -51,14 +54,13 @@ Instructions For Download Git
 -> Git branch (For check current branch)
 -> Git branch (branch name) (For create  new branch)
 -> Git checkout (branch name) (For go to specific branch)
--> Git rm -rf --cached . (This forcefully (f) and  recursively (r) delets every thing from git tracked index)
+-> Git rm -r <Folder Name> For remove folder with file recursively. 
+-> Git rm <file name> For remove specific file. 
+-> Git rm <file name> -f (For remove file forcefully) 
+-> Git rm -rf --cached . (This forcefully (f) and  recursively (r) delete every thing from git tracked index)
 -> Git merge <branch name> (For merge with specific branch)
--> Git merge <main> (For merge with main branch)
+-> Git merge <main> -m "git message" (For merge with main branch)
 -> Git push -u origin main (For push main branch)
 -> Git fetch (Use for download the latest commits, branch's, and tags from the remote repository without modifying your local working files)
 -> Git pull (Use For download the latest changes from a remote repository and immediately integrate them into your local working directory)
-
-
-
-  
-           
+-> Git cherry-pick <commit-hash> For marge specific commit.  
